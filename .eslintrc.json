@@ -1,0 +1,9 @@
+{
+    "env": {      
+        "jest": true
+    },
+    "extends": "eslint:recommended",   
+    "rules": {
+        "arrow-body-slyle": "off"
+    }
+}

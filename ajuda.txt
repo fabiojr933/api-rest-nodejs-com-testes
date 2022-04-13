@@ -1,0 +1,8 @@
+Criando o migration
+.\node_modules\.bin\knex migrate:make create_users --env test
+
+criando as tabelas e colunas
+.\node_modules\.bin\knex migrate:latest --env test
+
+deletando as tabelas
+.\node_modules\.bin\knex migrate:rollback --env test
