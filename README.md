@@ -22,7 +22,7 @@ npm install
 #### Criando as tabelas e colunas
 
 ```sh
-.\node_modules\.bin\knex migrate:latest --env testt
+.\node_modules\.bin\knex migrate:latest --env test
 ```
 
 #### Execute a aplicação localmente
